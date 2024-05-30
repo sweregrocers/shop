@@ -1,0 +1,148 @@
+<?php  
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+            box-sizing:border;
+        }
+        body{
+            
+            /* background:url("images/swere_grocers.jpg") center  no-repeat; */
+            background-color:rgba(240,240,240,1);
+            background-size:cover;
+            text-align:center;
+            padding:20px;
+            
+            
+            
+
+        }
+        .container{
+            background:rgba(250,160,150,4);
+            border-radius:20px;
+            padding:40px;
+            text-align:center;
+            margin:auto;
+            z-index:100;
+            
+            
+        
+        }
+
+        .price_list button{
+            height:40px;
+            width:100px;
+            border-radius:10px;
+            border:solid blue 2px;
+            background-color:rgba(150,240,40);
+            transition:0.2s;
+        
+
+            
+        }
+
+
+        .manage button{
+            margin-top:40px;
+            height:40px;
+            width:100px;
+            border-radius:10px;
+            border:solid blue 2px;
+            background-color:rgba(150,240,40);
+            transition:0.2s;
+            
+        }
+
+
+        .exit button{
+            margin-top:40px;
+            height:40px;
+            width:100px;
+            border-radius:10px;
+            border:solid blue 2px;
+            background-color:rgba(250,40,40,5);
+            transition:0.2s;
+            
+        }
+
+        .exit button:hover{
+            background-color:rgba(250,240,240);
+
+
+        }
+
+        .manage button:hover{
+            background-color:rgba(250,240,240);
+
+
+        }
+
+        .price_list button:hover{
+            background-color:rgba(250,240,240);
+
+
+        }
+
+        .header{
+      
+            padding:20px;
+            text-align:center;
+            margin:auto;
+            z-index:100;
+        
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div>
+            
+            <h1>
+                SWERE GROCERS E-PLATFORM.
+            </h1>
+            
+        </div>
+
+    </div>
+
+
+    
+    <div class="container">
+
+        <div class="price_list">
+            <a href="price_list.php">
+                <button class="price-list">
+                   <a href="prices/price_list.php">PRICE LIST</a>
+                </button>
+            </a>
+        </div>
+
+        
+        <div class="manage">
+            <a href="manage.php" class="mng">
+                <button class="mang">
+                    MANAGE
+                </button>
+            </a>
+        </div>
+
+        <div class="exit">
+            <button>EXIT</button>
+        </div>
+
+
+    </div>
+    
+</body>
+
+</html>
